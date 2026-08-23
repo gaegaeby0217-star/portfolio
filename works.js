@@ -51,17 +51,17 @@ const works = [
   },
 
   {
-    id: "Portrait_NPC_Mento_MA",
-    title: "리니지w 마법사 튜토리얼 npc",
+    id: "hanbock_01",
+    title: "한복_가영",
     role: "리깅 & 애니메이션",
-    tags: ["npc캐릭터"],
-    description: "리니지w외주 작업",
-    skeleton: "assets/nc1/Portrait_NPC_Mento_MA.json",
-    atlas: "assets/nc1/Portrait_NPC_Mento_MA.atlas",
+    tags: ["LD애니메이션"],
+    description: "가영_LD애니메이션",
+    skeleton: "assets/hanbock/hanbock_01.json",
+    atlas: "assets/hanbock/hanbock_01.atlas",
     animation: "idle",
     backgroundColor: "#1a1a2eff",
     spineVersion: "4.3",
-    thumbnail: "assets/nc1/thumbnail.png",
+    thumbnail: "assets/hanbock/thumbnail.png",
   },
 
   {
