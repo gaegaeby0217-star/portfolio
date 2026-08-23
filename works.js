@@ -61,7 +61,7 @@ const works = [
     animation: "idle",
     backgroundColor: "#1a1a2eff",
     spineVersion: "4.3",
-    thumbnail: "assets/hanbock/thumbnail.png",
+    thumbnail: "assets/hanbock/thumbnail.gif",
   },
 
   {
