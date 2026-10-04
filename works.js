@@ -151,7 +151,7 @@ const works = [
 },
 {
     id: "zzz_bangboo",
-    title: "smooooch・∀・_젠레스 존 제로_애니메이션",
+    title: "baaaangboo_젠레스 존 제로_애니메이션",
     role: "직접 그린 애니메이션입니다.",
     tags: ["영상","습작"],
     description: "프레임을 직접 그려서 만든 젠레스 존 제로의 방부 캐릭터로 smooooch・∀・ 뮤비를 패러디한 스프라이트 애니메이션입니다.",
