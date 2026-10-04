@@ -48,6 +48,19 @@ const works = [
     spineVersion: "4.3",
     thumbnail: "assets/hanbock/thumbnail.gif",
   },
+{
+    id: "hanbock_direct",
+    title: "한복_가영_연출",
+    role: "리깅 & 애니메이션 & 파티클 & 연출",
+    tags: ["연출영상", "이펙트","LD", "애니메이션"],
+    description: "유니티로 파티클 제작 후 애프터 이펙트로 연출했습니다.",
+    type: "video",
+    media: "assets/hanbock_direct/hanbock_direct.mp4",
+    thumbnail: "assets/hanbock_direct/hanbock_direct_thumbnail.png",
+    backgroundColor: "#000000ff",
+},
+
+
   {
     id: "Girls' frontline_SD",
     title: "소녀전선_SD",
@@ -69,7 +82,7 @@ const works = [
     description: "스파인 애니메이션을 유니티에 넣어 타임라인으로 파티클 이펙트를 작업한 영상입니다. 파티클 이펙트는 에셋스토어에서 구매했습니다.",
     type: "video",
     media: "assets/Girls' frontline_SD_sword/sword_effect.mp4",
-    thumbnail: "assets/Girls' frontline_SD_sword/sword_thumbnail.png",
+    thumbnail: "assets/Girls' frontline_SD_swor/sword_thumbnail.png",
     backgroundColor: "#000000ff",
 },
 {
