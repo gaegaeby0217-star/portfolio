@@ -79,7 +79,7 @@ const works = [
     tags: ["스킬영상", "이펙트","SD", "애니메이션"],
     description: "스파인 애니메이션을 유니티에 넣어 타임라인으로 파티클 이펙트를 작업한 영상입니다. 파티클 이펙트는 에셋스토어에서 구매했습니다.",
     type: "video",
-    media: "assets/Girls' frontline_SD_bow/bow_effect.mp",
+    media: "assets/Girls' frontline_SD_bow/bow_effect.mp4",
     thumbnail: "assets/Girls' frontline_SD_bow/bow_thumbnail.png",
     backgroundColor: "#000000ff",
 },
