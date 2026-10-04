@@ -156,8 +156,8 @@ const works = [
     tags: ["영상","습작"],
     description: "프레임을 직접 그려서 만든 젠레스 존 제로의 방부 캐릭터로 smooooch 뮤비를 패러디한 스프라이트 애니메이션입니다.",
     type: "video",
-    media: "assets/zzz_bangboo/baaaangboo_01.mp4",
-    thumbnail: "assets/zzz_bangboo/baaaangboo_thumbnail.png",
+    media: "zzz_bangboo/baaaangboo_01.mp4",
+    thumbnail: "zzz_bangboo/baaaangboo_thumbnail.png",
     backgroundColor: "#000000ff",
 },
 
