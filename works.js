@@ -66,8 +66,7 @@ const works = [
     title: "소녀전선_SD",
     role: "리깅 & 애니메이션",
     tags: ["SD애니메이션"],
-    description: "소녀전선의 HK416의 SD 애니메이션입니다."
-"※원작 아트 리소스를 기반으로 리깅·애니메이션을 직접 제작한 연습작입니다. 원본 아트의 저작권은 각 게임사에 있습니다",
+    description: "소녀전선의 HK416의 SD 애니메이션입니다.※원작 아트 리소스를 기반으로 리깅·애니메이션을 직접 제작한 연습작입니다. 원본 아트의 저작권은 각 게임사에 있습니다",
     skeleton: "assets/Girls' frontline_SD/HK419_SD.json",
     atlas: "assets/Girls' frontline_SD/HK419_SD.atlas",
     animation: "walk",
