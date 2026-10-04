@@ -97,6 +97,48 @@ const works = [
     backgroundColor: "#000000ff",
 },
 
+{
+    id: "Arknights_SD",
+    title: "명일방주_SD",
+    role: "리깅 & 애니메이션",
+    tags: ["SD애니메이션"],
+    description: "명일방주_SD애니메이션",
+    skeleton: "assets/Arknights_SD/char_199_yak2.json",
+    atlas: "assets/Arknights_SD/char_199_yak2.atlas",
+    animation: "walk",
+    backgroundColor: "#1a1a2eff",
+    spineVersion: "4.3",
+    thumbnail: "assets/Arknights_SD/yak_thumbnail.png",
+  },
+
+ {
+    id: "monster_spider",
+    title: "몬스터_거미",
+    role: "리깅 & 애니메이션",
+    tags: ["SD애니메이션"],
+    description: "거미_SD애니메이션",
+    skeleton: "assets/monster_spider/monster_spider.json",
+    atlas: "assets/monster_spider/monster_spider.atlas",
+    animation: "walk",
+    backgroundColor: "#1a1a2eff",
+    spineVersion: "4.3",
+    thumbnail: "assets/monster_spider/monster_spider_thumbnail.png",
+  },
+{
+    id: "monster_wolf",
+    title: "몬스터_늑대",
+    role: "리깅 & 애니메이션",
+    tags: ["SD애니메이션"],
+    description: "늑대_SD애니메이션",
+    skeleton: "assets/monster_wolf/monster_wolf.json",
+    atlas: "assets/monster_wolf/monster_wolf.atlas",
+    animation: "run",
+    backgroundColor: "#1a1a2eff",
+    spineVersion: "4.3",
+    thumbnail: "assets/monster_wolf/monster_wolf_thumbnail.gif",
+  },
+
+
 
   {
     id: "effect-demo",
