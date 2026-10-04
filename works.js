@@ -112,5 +112,15 @@ const works = [
     media: "assets/effect_fire/blue_fire.mp4",
     backgroundColor: "#101018ff",
   },
-
+{
+    id: "effect_fir",
+    title: "푸른_불꽃_습작",
+    role: "직접 그린 이펙트 습작입니다",
+    tags: ["영상", "이펙트","습작", "불꽃"],
+    description: "프레임을 직접 그려서 만든 스프라이트 애니메이션입니다.",
+    type: "video",
+    media: "assets/effect_fire/blue_fire.mp4",
+    thumbnail: "assets/effect_fire/blue_fire_thumbnail.png",
+    backgroundColor: "#000000ff",
+},
 ];
