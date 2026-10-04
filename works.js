@@ -104,12 +104,12 @@ const works = [
  {
     id: "effect_fire",
     title: "푸른_불꽃_습작",
-    role: "직접 그린 GIF 이펙트 습작입니다",
-    tags: ["이펙트", "GIF", "습작", "불꽃"],
+    role: "직접 그린 이펙트 습작입니다",
+    tags: ["이펙트", "습작", "불꽃"],
     description:
-      "프레임을 직접 그려서 만든 GIF 이펙트 애니메이션입니다.",
+      "프레임을 직접 그려서 만든 스프라이트 애니메이션입니다.",
     type: "sprite",
-    media: "assets/effect_fire/blue_fire.gif",
+    media: "assets/effect_fire/blue_fire.mp4",
     backgroundColor: "#101018ff",
   },
 
