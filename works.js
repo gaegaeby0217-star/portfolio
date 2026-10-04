@@ -90,4 +90,27 @@ const works = [
     media: "assets/effect-demo/burst.gif",
     backgroundColor: "#101018ff",
   },
+  {
+    id: "effect_water",
+    title: "붉은_물_습작",
+    role: "직접 그린 GIF 이펙트 습작입니다",
+    tags: ["이펙트", "GIF", "습작", "물"],
+    description:
+      "프레임을 직접 그려서 만든 GIF 이펙트 애니메이션입니다.",
+    type: "sprite",
+    media: "assets/effect_water/red_water.gif",
+    backgroundColor: "#101018ff",
+  },
+ {
+    id: "effect_fire",
+    title: "푸른_불꽃_습작",
+    role: "직접 그린 GIF 이펙트 습작입니다",
+    tags: ["이펙트", "GIF", "습작", "불꽃"],
+    description:
+      "프레임을 직접 그려서 만든 GIF 이펙트 애니메이션입니다.",
+    type: "sprite",
+    media: "assets/effect_fire/blue_fire.gif",
+    backgroundColor: "#101018ff",
+  },
+
 ];
