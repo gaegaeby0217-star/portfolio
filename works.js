@@ -66,7 +66,8 @@ const works = [
     title: "소녀전선_SD",
     role: "리깅 & 애니메이션",
     tags: ["SD애니메이션"],
-    description: "소녀전선SD 애니메이션",
+    description: "소녀전선의 HK416의 SD 애니메이션입니다."
+"※원작 아트 리소스를 기반으로 리깅·애니메이션을 직접 제작한 연습작입니다. 원본 아트의 저작권은 각 게임사에 있습니다",
     skeleton: "assets/Girls' frontline_SD/HK419_SD.json",
     atlas: "assets/Girls' frontline_SD/HK419_SD.atlas",
     animation: "walk",
@@ -138,19 +139,18 @@ const works = [
     thumbnail: "assets/monster_wolf/monster_wolf_thumbnail.gif",
   },
 
+{
+    id: "df_hug_me",
+    title: "안아줘요_던파_애니메이션",
+    role: "직접 그린 애니메이션입니다",
+    tags: ["영상", "이펙트","습작", "불꽃"],
+    description: "프레임을 직접 그려서 만든 스프라이트 애니메이션입니다.",
+    type: "video",
+    media: "assets/effect_fire/blue_fire.mp4",
+    thumbnail: "assets/effect_fire/blue_fire_thumbnail.png",
+    backgroundColor: "#000000ff",
+},
 
-
-  {
-    id: "effect-demo",
-    title: "버스트 이펙트 (데모)",
-    role: "샘플 작업물 — 직접 그린 GIF 이펙트 예시입니다",
-    tags: ["이펙트", "GIF", "데모"],
-    description:
-      "스파인이 아닌, 프레임을 직접 그려서 만든 GIF 이펙트를 올릴 때의 예시입니다. type을 'sprite'로 설정하면 됩니다.",
-    type: "sprite",
-    media: "assets/effect-demo/burst.gif",
-    backgroundColor: "#101018ff",
-  },
   {
     id: "effect_water",
     title: "붉은_물_습작",
