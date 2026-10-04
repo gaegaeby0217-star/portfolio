@@ -122,8 +122,17 @@ function openVideoViewer(work) {
     return;
   }
   if (work.media) {
-    container.innerHTML = `<video src="${work.media}" controls autoplay muted loop playsinline style="max-width:100%;max-height:100%;"></video>`;
+    container.innerHTML = `<video src="${work.media}" controls autoplay loop playsinline style="max-width:100%;max-height:100%;"></video>`;
     container.classList.add("sprite-mode");
+    // 소리 켠 상태로 자동재생 시도. 브라우저가 막으면 음소거로 재생 (사용자가 컨트롤에서 직접 소리 켤 수 있음)
+    const video = container.querySelector("video");
+    const playPromise = video.play();
+    if (playPromise && typeof playPromise.catch === "function") {
+      playPromise.catch(() => {
+        video.muted = true;
+        video.play().catch(() => {});
+      });
+    }
     return;
   }
   container.innerHTML = `<div style="color:#ff8080;padding:24px;font-size:13px;">재생할 영상(media 또는 embedUrl)이 지정되지 않았습니다.</div>`;
