@@ -56,7 +56,7 @@ const works = [
     description: "소녀전선SD 애니메이션",
     skeleton: "assets/Girls' frontline_SD/HK419_SD.json",
     atlas: "assets/Girls' frontline_SD/HK419_SD.atlas",
-    animation: "idle",
+    animation: "walk",
     backgroundColor: "#1a1a2eff",
     spineVersion: "4.3",
     thumbnail: "assets/Girls' frontline_SD/G_thumbnail_SD.png",
