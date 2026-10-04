@@ -34,22 +34,7 @@
  */
 
 const works = [
-  {
-    id: "spineboy-demo",
-    title: "Spineboy (데모)",
-    role: "샘플 작업물 — 이 카드는 예시입니다",
-    tags: ["데모", "액션", "리깅"],
-    description:
-      "실제 작업물을 추가하기 전 보여주는 샘플입니다. Esoteric Software에서 제공하는 공식 예제 캐릭터로, 본인의 작업물로 교체해서 사용하세요.",
-    skeleton: "assets/spineboy-demo/spineboy-pro.json",
-    atlas: "assets/spineboy-demo/spineboy-pma.atlas",
-    animation: "walk",
-    skin: "default",
-    backgroundColor: "#14141fff",
-    spineVersion: "4.3",
-    thumbnail: "assets/spineboy-demo/thumbnail.png",
-  },
-
+ 
   {
     id: "hanbock_01",
     title: "한복_가영",
@@ -63,21 +48,19 @@ const works = [
     spineVersion: "4.3",
     thumbnail: "assets/hanbock/thumbnail.gif",
   },
-
   {
-    id: "AR15",
-    title: "소녀전선 습작",
+    id: "Girls' frontline_SD",
+    title: "소녀전선_SD",
     role: "리깅 & 애니메이션",
-    tags: ["플레이어 캐릭터"],
-    description: "습작",
-    skeleton: "assets/ar15/AR15.json",
-    atlas: "assets/ar15/AR15.atlas",
+    tags: ["SD애니메이션"],
+    description: "소녀전선SD 애니메이션",
+    skeleton: "assets/Girls' frontline_SD/HK419_SD.json",
+    atlas: "assets/Girls' frontline_SD/HK419_SD.atlas",
     animation: "idle",
     backgroundColor: "#1a1a2eff",
     spineVersion: "4.3",
-    thumbnail: "assets/ar15/thumbnail.png",
-   },
-
+    thumbnail: "assets/Girls' frontline_SD/G_thumbnail_SD.png",
+  },
 
   {
     id: "effect-demo",
@@ -99,17 +82,6 @@ const works = [
       "프레임을 직접 그려서 만든 GIF 이펙트 애니메이션입니다.",
     type: "sprite",
     media: "assets/effect_water/red_water.gif",
-    backgroundColor: "#101018ff",
-  },
- {
-    id: "effect_fire",
-    title: "푸른_불꽃_습작",
-    role: "직접 그린 이펙트 습작입니다",
-    tags: ["이펙트", "습작", "불꽃"],
-    description:
-      "프레임을 직접 그려서 만든 스프라이트 애니메이션입니다.",
-    type: "sprite",
-    media: "assets/effect_fire/blue_fire.mp4",
     backgroundColor: "#101018ff",
   },
 {
