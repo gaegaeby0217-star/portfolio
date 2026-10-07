@@ -88,7 +88,7 @@ function openSpineViewer(work) {
     showControls: true,
     backgroundColor: work.backgroundColor || "#101018ff",
     success: function (player) {
-      // 로드 성공.
+      applyAnimationFilter(player, work);
     },
     error: function (player, msg) {
       document.getElementById("player-container").innerHTML =
@@ -97,6 +97,42 @@ function openSpineViewer(work) {
         )}<br><br>스파인 웹 플레이어 버전과 내보낸 파일의 버전이 일치하는지 확인해주세요.</div>`;
     },
   });
+}
+
+/**
+ * 애니메이션 목록(플레이어 하단 메뉴)에서 일부 클립을 숨김.
+ *  - 스파인 4.3 슬라이더가 사용하는 애니메이션은 자동으로 숨깁니다.
+ *    (슬라이더용 클립은 단독 재생하면 실제 스파인과 다르게 보이기 때문)
+ *  - works.js 항목에 hideAnimations: ["이름1", "이름2"] 를 적으면 그 클립도 숨깁니다.
+ * 숨겨진 클립도 스켈레톤 안에는 그대로 있어서 슬라이더 동작에는 영향이 없습니다.
+ */
+function applyAnimationFilter(player, work) {
+  try {
+    const data = player.skeleton.data;
+    const hidden = new Set(work.hideAnimations || []);
+
+    (data.constraints || []).forEach((c) => {
+      const isSlider =
+        (spine.SliderData && c instanceof spine.SliderData) ||
+        (c.animation && typeof c.animation === "object" && "additive" in c && "property" in c);
+      if (isSlider && c.animation && c.animation.name) hidden.add(c.animation.name);
+    });
+
+    if (hidden.size === 0) return;
+    const visible = data.animations.map((a) => a.name).filter((n) => !hidden.has(n));
+    if (visible.length === 0) return;
+
+    player.config.animations = visible; // 플레이어의 애니메이션 목록 화이트리스트
+    if (player.config.animation && hidden.has(player.config.animation)) {
+      player.config.animation = visible[0];
+      player.setAnimation(visible[0]);
+    }
+    if (visible.length <= 1 && player.animationButton) {
+      player.animationButton.classList.add("spine-player-hidden");
+    }
+  } catch (e) {
+    /* 필터 실패 시 기본 동작(전체 표시)으로 둠 */
+  }
 }
 
 function openSpriteViewer(work) {
